@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import CardGame from './CardGame'
 import './index.css';
 
 function Square(props) {
@@ -56,6 +57,7 @@ class Game extends React.Component {
       xIsNext: true
     };
   }
+    
 
   handleClick(i) {
     const history = this.state.history.slice(0, this.state.stepNumber + 1);
@@ -107,7 +109,10 @@ class Game extends React.Component {
     }
 
     return (
+
+      
       <div className="game">
+        <CardGame></CardGame>
         <div className="game-board">
           <Board
             squares={current.squares}
