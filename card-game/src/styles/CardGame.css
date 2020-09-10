@@ -255,8 +255,6 @@ div.buttons {
 	text-align: end;
 }
 
-div.buttons .card-settings {margin-top: 8px;}
-
 div.buttons .btn + .btn {margin-left: 8px;}
 
 div.card-container, div.card-value, div.card-match {

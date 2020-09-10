@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { themeSelector } from '../javascript/ThemeSelector'
+import { themeSelector } from '../javascript/utilities'
 
 const ThemeToggler = () => {
 
